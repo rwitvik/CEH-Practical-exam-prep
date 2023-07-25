@@ -3,3 +3,4 @@
         - When a DNS name server request fails, Link-Local Multicast Name Resolution(LLMNR) and Net-BIOS Name Service(NBT-NS) is used by Windows machines as a fallback.
           If the DNS name still remains unresolved, the windows performs an unauthenticated UDP broadcast to the whole network. Any masquerading machine,
           claiming to be the server then sends a response and capture the target's credentials during the authentication process.
+    Lab 2: search exploits in exploit db.
