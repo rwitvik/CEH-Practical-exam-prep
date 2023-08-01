@@ -1,0 +1,8 @@
+Sniffing: packet sniffing is the process of monitoring and capturing all data packets passing through a given network using a software application 
+            or hardware devices.
+Passive sniffing: refers to sniffing through a hub, wherein the traffic is sent to all ports.(outdated approach)
+Active sniffing: is used to sniff a switch-based network. Involves injecting address resolution packets(ARP) into the network to flood the switch's 
+                  content addressable memory(CAM) table, which keeps track of host-port connections
+Active sniffing techniques- MAC flooding, DHCP attacks, DNS poisoning, Switch port stealing,ARP poisoning, spoofing attack.
+
+Attckers run sniffers to convert the host systems NIC to promiscous mode.
