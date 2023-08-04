@@ -6,3 +6,17 @@ Active sniffing: is used to sniff a switch-based network. Involves injecting add
 Active sniffing techniques- MAC flooding, DHCP attacks, DNS poisoning, Switch port stealing,ARP poisoning, spoofing attack.
 
 Attckers run sniffers to convert the host systems NIC to promiscous mode.
+
+Lab1: Perform MAC flooding using macof
+            * macof -i [interface] -n [no.of packets to be sent]
+
+lab2: Perform DHCP Starvation attack using yersinia
+lab3: Perform ARP Poisoning using arpspoof
+            * arpspoof -i [interface] -t [target IP] [router default gateway IP]
+            * arpspoof -i [interface] -t [router default gateway IP] [target IP]
+
+lab4: Spoof a mac address using mac changer(linux) 
+            * 1) ifconfig eth0 down 
+              2) macchanger -a eth0
+              3) ifconfig eth0 up
+Lab5: Wireshark analysis
