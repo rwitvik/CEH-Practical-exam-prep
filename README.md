@@ -12,6 +12,4 @@ Starting with claring all the basics.
   - IOT (shodan)
   - censys (passive recon)
 
-# 4. System Hacking
-    _Tool_ 
-      - Extract os information, version details, NTLM usernames and passwords.(new technology lan management)
+
