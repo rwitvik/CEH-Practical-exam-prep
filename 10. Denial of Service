@@ -2,7 +2,7 @@ Denial of service(DOS): is an attack on a computer or network that reduces, rest
                         users.
                         * In DOS attack, attackers flood the victim system with non-legitimate service requests or traffic to overload its resources.
 
-DDOS: is a large-scale, coordinated attack on the availability of srvices on avictim's system or network resources, and it is launched 
+DDOS: is a large-scale, coordinated attack on the availability of services on victim's system or network resources, and it is launched 
           indirectly through many compromised computers on the internet. 
 
 Lab1: perform SYN flooding attack by using metasploit
