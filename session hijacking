@@ -1,0 +1,47 @@
+SESSION HIJACKING: session hijacking is an attck in which an attacker takes over a valid transmission control protocol(TCP) communication session 
+				   between two computers.  
+
+--> this attack can lead to man in the middle attack and DOS attack
+
+SESSION HIJACKING PHASES:
+1.Tracking the connection
+2.Desynchronizing the connection
+3.Injecting the attcker's packet.
+
+TYPES OF SESSION HIJACKING:
+1. Passive: In passive attack, attacker hijacks a session but sits back, watches, and records all the trafic in that session
+2. Active: in an active attack, an attcker finds an active session and seizes control of it.
+
+SESSION HIJACKING LEVELS:
+network-level hijacking in which attacker intercept the packets during the transmission between a clent and the server in a TCP or UDP session.
+
+Application-level hijacking in which attacker gain control over the HTTP'S user session by obtaining the session ID's.
+
+APPLICATION-LEVEL SESSION HIJACKING:
+Techniques to acquiring control over a valid user's session..such as 
+1. Stealing
+2.Guessing
+3. Brute forcing
+
+NETWORK-LEVEL HIJACKING:
+1. blind hijacking
+2. UDP hijacking
+3. TCP/IP hijacking
+4. RST hijacking
+5. Man-in-the-middle
+6. IP spoofing
+
+SESSION HIJACKING TOOLS:
+1. Hetty
+2. bettercap
+3. OWASP ZAP
+
+METHODS USED TO DETECT SESSION HIJACKING:
+1.Manual Method
+2.Automatic Mathod
+
+
+LAB1: session hijacking using ZAP
+Lab2: Intercept HTTP traffic using bettercap
+Lab3: intercept HTTP traffic using Hetty
+
