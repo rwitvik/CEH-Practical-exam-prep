@@ -1,0 +1,7 @@
+HACKING WEB SERVERS:
+A web server is a computer system that stores, processes, and delivers web pages to global clients vis HTTP protocol. A web server attack typically involves preplanned activities called an attcak methodology, which attcker implements to reach their goal of breaching the target web sever's security.
+
+LAB1: Footprint a web server using Netcat and Telnet
+Netcat: is a networking utility that reads and writes data across network connections, using the TCP/IP protocol. It is reliable back-end tool used directly or driven by other programs and scripts. It is a network dubugging and exploration tool.
+
+Telnet: is a clent-server network protocol.it provides the login session for a user on the internet.
