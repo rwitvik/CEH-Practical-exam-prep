@@ -1,0 +1,14 @@
+INTRUSION DETECTION SYSTEM (IDS): IDS is a software system or hardware device that inspects all inbound network traffic for suspicious patterns that may indiacate a network or system security breach.
+
+--->IDS also reffered as a packet sniffer.
+---> signature comparison
+
+TYPES:
+1.Network based IDS
+2.Host based IDS
+
+FIREWALL:
+firewalls are hardware/software designed to prevent unauthorized access to or from a private network.
+
+HONEYPOT: a honeypot is a computer system on the internet intended to attract and trap those who attempt unauthorized actions.
+

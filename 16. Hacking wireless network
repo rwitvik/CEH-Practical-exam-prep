@@ -1,0 +1,23 @@
+WIRELESS ENCRYPTION: is a process of protecting a wireless network from attckes who attempt to collect sensitive information by breaching the RF traffic.
+
+TYPES OF WIRELESS ENCRYPTION:
+1. WEP(WIRED EQUIVALENT PRIVACY)
+2. WPA(WIRE-LESS PROTECTED ACCESS)
+
+WIRELESS THREATS:
+1. Access control attacks: aim to penetrate network by evading WLAN access control measures such as MAC filters and WIFI port access control.
+2. Integrity attacks: involves changing data during transmission.(data frame injection.)
+3. confidentiality attacks: attempts to intercept information
+4. Availability attacks
+5. Authentication attacks
+
+WIRELESS HACKING METHODOLOGY:
+the objective of the wireless hacking methodology is to compromise a wifi network to gain unauathorized access to network resources
+1. WIFI discovery- 1. passive footprinting
+				   2. active footprinting.
+
+2. GPS mapping.
+3. Wireless traffic analysis
+4. Sniffing wireless traffic(wireshark), perfotm spectrum analysis(Tool: RF explorer)
+5. Launch of wireless attacks: Aircrack-ng suite
+6. Wifi encryption cracking

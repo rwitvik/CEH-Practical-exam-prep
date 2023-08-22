@@ -1,0 +1,5 @@
+SQL INJECTION:
+SQL injection is a technique that takes advantage of un-satinized input vulnerabilities to pass malicious SQL commands through a web application for execution by a backend database.
+
+
+,:--
