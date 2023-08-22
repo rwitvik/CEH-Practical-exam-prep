@@ -21,3 +21,6 @@ the objective of the wireless hacking methodology is to compromise a wifi networ
 4. Sniffing wireless traffic(wireshark), perfotm spectrum analysis(Tool: RF explorer)
 5. Launch of wireless attacks: Aircrack-ng suite
 6. Wifi encryption cracking
+
+Resources:
+Tryhackme: https://tryhackme.com/room/wifihacking101
