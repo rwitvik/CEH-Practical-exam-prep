@@ -1,0 +1,47 @@
+1.BROKEN ACCESS CONTROL:
+is a method in which an attacker identifies a flaw related to access control and bypasses the authentification, which allows them to compromise the network.
+--> it allows attacker to act as users or administrator.
+
+2.CRYPTOGRAPHIC FAILURES/SENSITIVE DATA EXPOSURE:
+web apps need to store sensitive information such as passwords, cerdit card numbers etc. in a database or on a file system. if users do not maintain the proper security of their storage locations, the application may be at risk as attackers can access the storage and misuse the information. but, many web apps do not properly protect their sensitive data unauthorized users.
+
+3. INJECTION FLAWS:
+injection flaws are web app vulnerabilities that allow untrusted data to be interpreted and executed as part of a command or query.
+*Types:
+	1. SQL injection: SQL injection atatcks use a series of maicious 	SQL queries to directly manipulate the database.
+	--> executed from the address bar.
+
+	2. command injection: 
+		1.Shell injection: attacker tries to craft an input string to gain shell access of web server
+		2. HTML embedding: used to deface websites virtually. attcker adds extra HTML-based content to the vulnerable web apps
+		3. File injection: attcker exploit this vulnerability to inject malicious code into file system files.
+
+	3. LDAP(Lightweight directory access protocol): is a based on the client-server model, and clients can search the directory entries using filters. 
+	4. Cross-site scripting(XSS): exploit vulnerabilities in dynamically generated web pages, which enables milicious attackers to inject client-side script into web pages viewed by other users.
+
+4. INSECURE DESIGN: 
+Insecure design flaws arises in an application because of the improper implemnattion of security controls and can lead to crucial vulnerabilites such as SQLi and open S3 buckets.
+
+5. SECURITY MISCONFIGURATION:
+By exploting misconfiguration vulnerabilities such as unvalidated inputs, parameter/from tampering, improper error handling, and insufficient transport layer protection, attcakers gain unauthorized access to default accounts, read unused pages, read/writes unprotected files and directories, etc.
+
+6.VULNERABLE AND OUTDATED COMPONENTS/USING COMPONENETS WITH KNOWN VULNERABILITIES:
+most web apps that use componenets such as libraries and frameworks always execute them with full privilages, and flaws in any component can result in serious impact.
+	--> Attckers can identify weak components or dependencies by scanning or by performing manual analysis.
+
+7.BROKEN AUTHENTICATION:
+Attckers can exploit vulnerabilites in identifiction, authentication or session mangement fucntions such as exposed accounts, session ID's, logout,password amangement, timeouts.
+
+8. SOFTWARE AND DATA INTEGRITY FAILURES:
+occur when organizations fail to update the application's software with the latest version or patches.
+	1.Insecure deserialization: As data in the computer is stored in form of data structures,data serialization and deserialization is an effective process for linearizing and de-linearizing data objects to transport them to other networks or systems.
+
+09. SECURITY LOGGING AND MONITORING FAILURES/INSUFFICIENT LOGGING AND MONITORING:
+Security logging and monitoring failures cover application weakness such as insuffient logging, improper output neutralization for logs, exclusion of security-revelant information, and addition of sensitive information to log files.
+
+10. SERVER-SIDE REQUEST FORGERY(SSRF):
+Attackers exploit server-side request forgery vulnerabilities, which evolves from the unsafe use of functions in an application, in public web server to send crafted requests to internal or backend servers.
+	Types:
+	1. Injecting SSRF payload
+	2. CROSS-SITE PORT ATTACK(XSPA)
+	
