@@ -44,4 +44,10 @@ Attackers exploit server-side request forgery vulnerabilities, which evolves fro
 	Types:
 	1. Injecting SSRF payload
 	2. CROSS-SITE PORT ATTACK(XSPA)
+
+TRYHACKME ROOMS:
+1. https://tryhackme.com/room/owasptop10
+
+RESOURCES:
+https://www.youtube.com/watch?v=GmWQ1VIjd2U&list=PLHUKi1UlEgOJLPSFZaFKMoexpM6qhOb4Q&pp=iAQB
 	
