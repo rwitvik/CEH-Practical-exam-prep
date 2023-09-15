@@ -20,3 +20,8 @@ lab4: Spoof a mac address using mac changer(linux)
               2) macchanger -a eth0
               3) ifconfig eth0 up
 Lab5: Wireshark analysis
+
+TRYHACKME:
+1. https://tryhackme.com/room/wiresharkthebasics
+2. https://tryhackme.com/room/wiresharkpacketoperations
+3. https://tryhackme.com/room/wireshark
