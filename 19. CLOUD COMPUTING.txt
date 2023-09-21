@@ -1,0 +1,14 @@
+CLOUD COMPUTING: is an emerging technology that delivers computing services, such as online business applications, online data storage, and webmail over the internet.
+
+TYPES:
+1.Infrastructure-as-a-service(Iaas)
+2.platform-as-a-service(Paas)
+3.software-as-a-service(Saas)
+
+
+CONTAINER: is apackage of an application/software including all its dependcied such as library files,configuration files, binaries, and other resources that run independently of other processes in the cloud environment.
+
+TOOLS:
+1. lazys3
+2. s3scanner
+3. aws cli

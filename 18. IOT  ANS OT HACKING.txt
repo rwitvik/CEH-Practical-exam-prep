@@ -1,0 +1,18 @@
+IOT: refers to computing devices that are web enabled and have the capability of sensing, collecting and sending data using sensors, and the communication hardware and processors that are embedded within the device.
+
+IOT ARCHITECTURE:
+1.Edege technology layer
+2.Access gateway layer
+3.Internet layer
+4.Middle layer
+5.Application layer
+
+IOT HACKING METHODOLOGY:
+1.Information gathering
+2.Vulnerability scanning
+3.Launch attacks
+4.gain remote access
+5.maintain access
+
+WHAT IS OT:
+operational technology(OT) is the software and hardware designed to detect or cause changes in industrial operations through direct monitoring and /or controlling of industrial physical devices.
