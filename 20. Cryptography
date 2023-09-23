@@ -3,3 +3,8 @@ Resources:
 2. https://tryhackme.com/room/cryptographyintro
 3. https://tryhackme.com/room/crackthehash
 4. https://tryhackme.com/room/johntheripper0
+
+tools:
+1. hash-identifier
+2. john the ripper
+3. veracrypt
