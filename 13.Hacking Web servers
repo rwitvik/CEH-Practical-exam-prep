@@ -5,3 +5,9 @@ LAB1: Footprint a web server using Netcat and Telnet
 Netcat: is a networking utility that reads and writes data across network connections, using the TCP/IP protocol. It is reliable back-end tool used directly or driven by other programs and scripts. It is a network dubugging and exploration tool.
 
 Telnet: is a clent-server network protocol.it provides the login session for a user on the internet.
+
+lab1: Crack FTP credentials using a dictionary attack
+  - nmap -p <ip>
+  - ftp <ip>
+  - hydra -L <usernames.txt> -P <pass.txt> ftp://<ip>
+  - login with credentials
