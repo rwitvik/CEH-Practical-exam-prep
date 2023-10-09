@@ -2,7 +2,8 @@ SQL INJECTION:
 SQL injection is a technique that takes advantage of un-satinized input vulnerabilities to pass malicious SQL commands through a web application for
 execution by a backend database.
 
-
+Resource:
+1. https://youtu.be/2OPVViV-GQk?si=_xyD1fmNSoAviZDD
 
 
 TRYHACKME ROOMS:
