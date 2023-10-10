@@ -1,8 +1,7 @@
-ANATOMY OF A MOBILE ATTACK:
-1. The device
- 	browser based attacks
-	phone based attacks
-	application based attacks
-2. The system
-3. The network
-4. Database attacks
+Exploit android using adb: Install adb first.
+ - adb devices
+ - adb connect ip:port
+ - adb shell
+ - ls
+ - cd sdcard/
+
