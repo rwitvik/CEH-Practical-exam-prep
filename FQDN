@@ -1,0 +1,51 @@
+Find FQDN
+nmap -p389 -sV -iL <target_list>
+or nmap -p389 -sV <target_IP> (Find the FQDN in a
+subnet/network)
+
+
+Please note that this is just a introductory overview of how to perform an expansive checkup of the target network and identify the FQDN of the Domain Controller. There are a variety of other tools and ways that can be used to negotiate this task.
+
+ 
+
+Thank you! 
+Step-by-step explanation
+
+ 
+
+ 
+
+To perform an expansive checkup of the target network and identify the FQDN of the Domain Controller, you can use the following wayñ
+
+1.  Identify the target network :This can be done using a variety of styles, similar as network mapping tools or DNS lookups.
+
+
+2. overlook the target network for open anchorages.  You can use a variety of tools to do this, similar as Nmap or Nessus.
+
+
+3. Identify the services running on the open anchorages.  This can be done using the same tools that you used to overlook for open anchorages.
+
+ 
+
+
+4. Look for services that are associated with Domain regulators. Some common services to look for include
+* LDAP( TCP harborage 389)
+* Active Directory Domain Services( TCP harborage 636)
+* Kerberos( TCP anchorages 88 and 464)
+
+
+5.  Once you have linked a service that's associated with a Domain Controller, you can use the affair of the checkup to determine the FQDN of the Domain Controller.  For illustration, you can use the nslookup command to resolve the IP address of the Domain Controller to its FQDN.
+
+Then's an illustration of how to use Nmap to overlook a target network for open anchorages and identify the services running on those anchorages
+
+nmap -sT -A <target_network>
+
+
+The affair of this command will show you the open anchorages on each host in the target network, as well as the services running on those anchorages.
+
+Once you have linked a service that's associated with a Domain Controller, you can use the following command to resolve the IP address of the Domain Controller to its FQDN
+
+
+nslookup <ip_address>
+
+The affair of this command will show you the FQDN of the Domain Controller.
