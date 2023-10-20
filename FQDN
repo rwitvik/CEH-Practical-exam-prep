@@ -1,3 +1,8 @@
+nmap -sT -A <target_network>
+nslookup <ip_address>
+
+
+
 Find FQDN
 nmap -p389 -sV -iL <target_list>
 or nmap -p389 -sV <target_IP> (Find the FQDN in a
