@@ -87,6 +87,11 @@ nmap -sV --script nb.stat.nse ip (shows netbios service)
                   cd sdcard
                   adb pull /sdcard/log.txt C:\Users\admin\Desktop\log.txt 
                   adb pull sdcard/log.txt /home/mmurphy/Desktop
+
+6. System Hacking:
+                  ssh user@ip
+                  pass
+                  
                   
              
 
