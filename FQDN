@@ -3,7 +3,7 @@ nslookup <ip_address>
 
 
 
-Find FQDN
+Find FQDN (hostname A)
 nmap -p389 -sV -iL <target_list>
 or nmap -p389 -sV <target_IP> (Find the FQDN in a
 subnet/network)
