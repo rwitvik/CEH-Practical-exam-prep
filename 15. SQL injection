@@ -15,6 +15,18 @@ sqlmap -r <txt file from burpsuite> -D <database name> -T <table name> --columns
 sqlmap -r <txt file from burpsuite> -D <database name> -T <table name> --dump-all
 then login and do the url parameter change page_id=1 to page_id=84
 
+19.
+For the RAT question, 
+. Scan all ports with nmap (-p-). Look for the unknown ports. Use theef RAT to connect to it.
+main ports check 9871,6703
+ nmap -p 9871,6703 192.168.0.0/24
+now you get open port ip address
+now go to the c drive malware/trojans/rat/theef and run the client.exe file
+theef - 6703, FTP: 2968
+	- NJRAT - 5552
+	- MoSucker - 20005 (I think)
+ProRat - 5110
+
 
 TRYHACKME ROOMS:
 1. https://tryhackme.com/room/sqlinjectionlm
