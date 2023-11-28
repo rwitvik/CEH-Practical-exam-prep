@@ -88,9 +88,44 @@ nmap -sV --script nb.stat.nse ip (shows netbios service)
                   adb pull /sdcard/log.txt C:\Users\admin\Desktop\log.txt 
                   adb pull sdcard/log.txt /home/mmurphy/Desktop
 
-6. System Hacking:
-                  ssh user@ip
-                  pass
+
+172.20.0.0/24  
+10.10.0.0/24  
+192.168.0.0/24  
+ 
+192.168.0.19 adb android 5555 port 
+192.168.0.27 445 smb 
+1-AdminTeam.ECCCEH.com Fqdn
+2 -smb cred Henry Apple123 
+ 
+2- smb -nvkwj2387-(Correct Attempt) 
+stego N7#SePFn 
+iot - 39 lenght 
+ddos - 172.20.0.21 
+butterfly 
+C@tchm3- VERACRYPT 
+Your organization suspects the presence of a rogue AP in the vicinity. You are tasked with cracking the wireless encryption, 
+connecting to the network, and setting up a honeypot. The airdump-ng tool has been used, and the Wi-Fi traffic capture named 
+"WirelessCapture.cap" is located in the Documents folder in the "EH Workstation – 1" (ParrotSecurity) machine. Crack the wireless
+encryption and identify the Wi-Fi password. 
+password1-(Correct Attempt) 
+ 
+ 
+While investigating an attack, you found that a Windows web development environment was exploited to gain access to the system. 
+Perform extensive scanning and service enumeration of the target networks and identify the IP address of the server running WampServer. 
+172.20.0.16-(Correct Attempt) 
+ 
+ 
+ 
+ 
+ftp  
+Henry Martin 
+Applle123 
+Querty1234 
+SEVERY SCORE 10 
+Exploit weak credentials used for FTP service on a Windows machine in the 192.168.0.0/24 subnet. Obtain the file, Credential.txt, 
+hosted on the FTP root, and enter its content as the answer. 
+hSP#6Csa
                   
                   
              
