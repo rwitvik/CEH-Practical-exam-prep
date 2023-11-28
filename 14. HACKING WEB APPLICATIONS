@@ -84,7 +84,9 @@ https://www.youtube.com/watch?v=GmWQ1VIjd2U&list=PLHUKi1UlEgOJLPSFZaFKMoexpM6qhO
 8. hSP#6Csa 
 10. 0041e768
 11. 172.20.0.21
+14. gobuster dir -u training.cehorg.com -w <worlist.txt> -x txt   or drupal 7 metasploit
 17. 39
 18. password1
 20. C@tchm3
+
 	
