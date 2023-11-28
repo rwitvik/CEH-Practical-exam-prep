@@ -42,6 +42,17 @@ can result in serious impact.
 Attckers can exploit vulnerabilites in identifiction, authentication or session mangement fucntions such as exposed accounts, session ID's, 
 logout,password amangement, timeouts.
 
+11:
+172.16.0.40 -DOS
+F/N201010988818 -alex
+sam/test -pcp 
+9419512131-vera
+172.16.0.40- bcx
+172.16.0.27- 2
+5000612345678 -back acc
+file 2
+Blackhat test
+
 8. SOFTWARE AND DATA INTEGRITY FAILURES:
 occur when organizations fail to update the application's software with the latest version or patches.
 	1.Insecure deserialization: As data in the computer is stored in form of data structures,data serialization and deserialization is an
@@ -63,4 +74,17 @@ TRYHACKME ROOMS:
 
 RESOURCES:
 https://www.youtube.com/watch?v=GmWQ1VIjd2U&list=PLHUKi1UlEgOJLPSFZaFKMoexpM6qhOb4Q&pp=iAQB
+
+12:
+1. 1-AdminTeam.ECCCEH.com
+2. 172.20.0.16 
+3. nvkwj2387 
+5. 10 
+7. N7#SePFn 
+8. hSP#6Csa 
+10. 0041e768
+11. 172.20.0.21
+17. 39
+18. password1
+20. C@tchm3
 	
